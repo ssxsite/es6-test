@@ -1,7 +1,12 @@
-export let name = 'ssx'
-export let age = 20
-export function sayHello(){
-    console.log(`hello ${name}`)
+var obj = {
+     name :'ssx',
+     age : 20,
+    sayHello:function(){
+        console.log(`module1 hello ${name}`)
+    }
 }
-let site='ssx.com'
-export default site
+
+export default obj
+export var name = obj.name
+export var age = obj.age
+export var sayHello = obj.sayHello

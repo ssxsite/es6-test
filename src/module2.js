@@ -1,3 +1,3 @@
-import site, {name, age,sayHello} from './module1.js'
-console.log(site,name,age)
+import module1, {name, age,sayHello} from './module1.js'
+console.log(module1,name,age)
 sayHello()
